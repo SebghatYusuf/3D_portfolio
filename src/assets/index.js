@@ -1,4 +1,4 @@
-import logo from "./logo.svg";
+import logo from "./logo.png";
 import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
@@ -11,7 +11,7 @@ import css from "./tech/css.png";
 import docker from "./tech/docker.png";
 import figma from "./tech/figma.png";
 import git from "./tech/git.png";
-import html from "./tech/html.png";
+import cloudbloq from "./cloudbloq.png";
 import javascript from "./tech/javascript.png";
 import mongodb from "./tech/mongodb.png";
 import nodejs from "./tech/nodejs.png";
@@ -26,9 +26,15 @@ import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
+import dvh from "./dvh.png";
+import classic from "./classic.png";
 import tripguide from "./tripguide.png";
+import empirepixel from "./empirepixel.png";
+import milestone from "./milestone.jpeg";
+import flutter from "./flutter.png";
+import nextjs from "./nextjs.png";
+import nuxtjs from "./nuxtjs.png";
+import vuejs from "./vuejs.png";
 
 export {
   logo,
@@ -43,7 +49,8 @@ export {
   docker,
   figma,
   git,
-  html,
+  cloudbloq,
+  classic,
   javascript,
   mongodb,
   nodejs,
@@ -56,7 +63,12 @@ export {
   shopify,
   starbucks,
   tesla,
-  carrent,
-  jobit,
+  dvh,
   tripguide,
+  empirepixel,
+  milestone,
+  flutter,
+  nextjs,
+  nuxtjs,
+  vuejs,
 };

@@ -5,7 +5,7 @@ import {
   web,
   javascript,
   typescript,
-  html,
+  cloudbloq,
   css,
   reactjs,
   redux,
@@ -13,16 +13,17 @@ import {
   nodejs,
   mongodb,
   git,
-  figma,
   docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
-  carrent,
-  jobit,
+  flutter,
+  empirepixel,
+  dvh,
+  classic,
   tripguide,
   threejs,
+  milestone,
+  nuxtjs,
+  nextjs,
+  vuejs,
 } from "../assets";
 
 export const navLinks = [
@@ -54,20 +55,13 @@ const services = [
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Programming Teacher",
     icon: creator,
   },
 ];
 
 const technologies = [
-  {
-    name: "HTML 5",
-    icon: html,
-  },
-  {
-    name: "CSS 3",
-    icon: css,
-  },
+
   {
     name: "JavaScript",
     icon: javascript,
@@ -82,19 +76,19 @@ const technologies = [
   },
   {
     name: "Flutter",
-    icon: redux,
+    icon: flutter,
   },
   {
     name: "Next JS",
-    icon: redux,
+    icon: nextjs,
   },
   {
     name: "Vue JS",
-    icon: redux,
+    icon: vuejs,
   },
   {
     name: "Nuxt JS",
-    icon: redux,
+    icon: nuxtjs,
   },
   {
     name: "Tailwind CSS",
@@ -126,8 +120,8 @@ const experiences = [
   {
     title: "React.js + Django Developer",
     company_name: "Milestone Technologies",
-    icon: starbucks,
-    iconBg: "#383E56",
+    icon: milestone,
+    iconBg: "#f5fcf2",
     date: "March 2020 - April 2021",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
@@ -139,8 +133,8 @@ const experiences = [
   {
     title: "Flutter Developer",
     company_name: "Empire Pixel",
-    icon: tesla,
-    iconBg: "#E6DEDD",
+    icon: empirepixel,
+    iconBg: "#383E56",
     date: "April 2021 - now",
     points: [
       "Develop high-quality mobile apps for both iOS and Android platforms.",
@@ -152,9 +146,21 @@ const experiences = [
     ],
   },
   {
+    title: "Full stack developer",
+    company_name: "cloudbloq.io",
+    icon: cloudbloq,
+    iconBg: "#fff",
+    date: "Sept 2021 - Jan 2022",
+    points: [
+      "Developing and maintaining web applications using React.js and other related technologies.",
+      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      "Implementing responsive design and ensuring cross-browser compatibility.",
+    ],
+  },
+  {
     title: "Full stack Developer",
     company_name: "Empire Pixel",
-    icon: shopify,
+    icon: empirepixel,
     iconBg: "#383E56",
     date: "Sept 2021 - now",
     points: [
@@ -175,11 +181,11 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+      "Sebghat have worked as a great developer with us for one year",
+    name: "Ahmad Zarif Adel",
+    designation: "CTO",
+    company: "Milestone Technologies",
+    image: milestone,
   },
   {
     testimonial:
@@ -201,49 +207,57 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "VIN Decoder & Vehicle History (DVH)",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "A quick and easy way to decode VIN and generate vehicle history for used vehicles.",
     tags: [
       {
-        name: "react",
+        name: "flutter",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "ml",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "OCR",
         color: "pink-text-gradient",
       },
+      {
+        name: "vehicle-history",
+        color: "blue-text-gradient",
+      },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: dvh,
+    source_code_link: "https://play.google.com/store/apps/details?id=com.vehiclehistory.dvh&hl=en&gl=US&pli=1",
   },
   {
-    name: "Job IT",
+    name: "Classic Decoder",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      " You can easily and quickly decode any classic car VIN number to get specifications or run a classic VIN check to generate the classic vehicle history report.",
     tags: [
       {
-        name: "react",
+        name: "flutter",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "ml",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "OCR",
         color: "pink-text-gradient",
       },
+      {
+        name: "vehicle-history",
+        color: "blue-text-gradient",
+      },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: classic,
+    source_code_link: "https://play.google.com/store/apps/details?id=com.vehicledatabases.classic&hl=en&gl=US",
   },
   {
-    name: "Trip Guide",
+    name: "Smart Car Check",
     description:
       "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
     tags: [
