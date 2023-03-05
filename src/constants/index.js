@@ -46,7 +46,7 @@ const services = [
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "Mobile Developer",
     icon: mobile,
   },
   {
@@ -81,7 +81,19 @@ const technologies = [
     icon: reactjs,
   },
   {
-    name: "Redux Toolkit",
+    name: "Flutter",
+    icon: redux,
+  },
+  {
+    name: "Next JS",
+    icon: redux,
+  },
+  {
+    name: "Vue JS",
+    icon: redux,
+  },
+  {
+    name: "Nuxt JS",
     icon: redux,
   },
   {
@@ -105,10 +117,6 @@ const technologies = [
     icon: git,
   },
   {
-    name: "figma",
-    icon: figma,
-  },
-  {
     name: "docker",
     icon: docker,
   },
@@ -116,8 +124,8 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
+    title: "React.js + Django Developer",
+    company_name: "Milestone Technologies",
     icon: starbucks,
     iconBg: "#383E56",
     date: "March 2020 - April 2021",
@@ -129,44 +137,39 @@ const experiences = [
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
+    title: "Flutter Developer",
+    company_name: "Empire Pixel",
     icon: tesla,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "April 2021 - now",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Develop high-quality mobile apps for both iOS and Android platforms.",
+      "Build beautiful and responsive user interfaces with Flutter's widgets, which provide a wide range of customizable and reusable components",
+      "Utilize Flutter's support for third-party packages to easily integrate with other libraries and APIs, and add new features and functionality to your app",
+      "Collaborate with designers, developers, and other stakeholders to ensure that the app meets the requirements, is delivered on time, and meets the high standards of quality and performance",
+      "Ensure the app is optimized for performance, stability, and security by using best practices, testing tools, and debugging techniques",
+      "Stay up-to-date with the latest developments in the mobile app development industry, and continuously learn and improve your skills to stay at the top of your game.",
     ],
   },
   {
     title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    company_name: "Empire Pixel",
+    icon: shopify,
+    iconBg: "#383E56",
+    date: "Sept 2021 - now",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Develop cross-platform applications using Flutter, which allows for faster development and better performance.",
+      "Write server-side code and integrate with web applications using Flask, Django, or FastAPI.",
+      "Work with Flutter plugins to add additional functionality to mobile & desktop applications.",
+      "Develop server-side rendered web applications using Next.js, which allows for faster page loads and better SEO.",
+      "Use Next.js API routes to create serverless API endpoints.",
+      "Work with Next.js dynamic routing to create dynamic pages and handle dynamic data.",
+      "Develop and deploy serverless functions using Azure Functions.",
+      "Create and manage Function Apps to run and scale serverless functions in Azure.",
+      "Work with NoSQL database like MongoDB to implement document-based data storage.",
+      "Integrate with Node.js, Python or other server-side frameworks to implement data operations like insert, update, delete, and retrieve.",
     ],
-  },
+  }
 ];
 
 const testimonials = [
